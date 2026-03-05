@@ -29,10 +29,10 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(mess
 
 # ── Strategy parameters ────────────────────────────────────────────────────────
 VIX_HIGH_THRESHOLD = 40.0   # VIX above this → 50% TQQQ drawdown threshold
-VIX_MID_LOW        = 28.0   # Lower bound for mid-tier VIX entry
+VIX_MID_LOW        = 18.0   # ⚠️ TEST ONLY — normally 28.0
 VIX_MID_HIGH       = 40.0   # Upper bound for mid-tier VIX entry
 TQQQ_DD_HIGH_VIX   = 50.0   # % below ATH required when VIX > 40
-TQQQ_DD_MID_VIX    = 75.0   # % below ATH required when 28 < VIX ≤ 40
+TQQQ_DD_MID_VIX    = 10.0   # ⚠️ TEST ONLY — normally 75.0
 MA_PERIOD          = 30     # Days for TQQQ moving average
 
 # ── Paths & network ───────────────────────────────────────────────────────────
