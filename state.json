@@ -1,7 +1,7 @@
 {
   "in_trade": false,
-  "tqqq_above_30ma": false,
+  "tqqq_above_30ma": true,
   "entry_date": null,
   "exit_date": null,
-  "last_run": "2026-04-07"
+  "last_run": "2026-04-08"
 }
